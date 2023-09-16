@@ -13,17 +13,13 @@ body {
   margin: 0 auto;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .grid {
   display: grid;
   grid-gap: 64px;
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
 }
 
 .grid-2-columns {
@@ -73,6 +69,11 @@ body {
   align-self: stretch;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+}
 section {
   max-width: 1200px;
   margin: 0 auto;
@@ -88,6 +89,10 @@ section .secondary {
   );
 }
 
+section h2,
+h3 {
+  text-align: center;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/space.png");
