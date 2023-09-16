@@ -1,11 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(
-    0deg,
-    rgba(3, 5, 4, 0.9) 0%,
-    rgba(2, 4, 3, 0.7) 51.55%,
-    rgba(11, 6, 32, 0.6) 100%
-  );
+  background: black;
 }
 
 .container {
@@ -59,7 +54,7 @@ body {
   display: flex;
   justify-content: center;
   border-radius: 5px;
-  background: #885df1;
+  background: ;
   color: white;
   font-size: 14px;
   letter-spacing: 3px;
@@ -133,8 +128,8 @@ header a {
   font-weight: 600;
   line-height: 1.5;
   text-decoration: none;
-  color: white;
-  background: #885df1;
+  color: black;
+  background: #ffe919;
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
@@ -143,9 +138,9 @@ header a {
 main {
   background: linear-gradient(
     0deg,
-    #030504 0%,
-    rgba(2, 4, 3, 0.3) 51.55%,
-    rgba(11, 6, 32, 0) 100%
+    rgba(3, 5, 4, 0.9) 0%,
+    rgba(2, 4, 3, 0.7) 51.55%,
+    rgba(11, 6, 32, 0.6) 100%
   );
 }
 
